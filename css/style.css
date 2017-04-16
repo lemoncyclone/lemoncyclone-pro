@@ -1,0 +1,227 @@
+ 
+body {
+
+
+
+}
+
+h1, h2, h3, h4, h5 {
+
+}
+
+
+
+.wrapper {
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+.wrapperHeader {
+
+}
+
+.wrapperContent {
+	min-height: 700px;
+
+
+}
+
+.wrapperFooter {
+
+}
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.header {
+
+
+
+}
+
+
+.menu {
+text-align: right;
+
+}
+
+.logo {
+	padding-top: 5px;
+}
+
+.logo img {
+
+
+}
+
+.topbar {
+padding-top: 15px;
+padding-bottom: 15px;
+margin-bottom: 10px;
+border-radius: 5px;
+}
+
+
+.header-lang {
+text-align: right;
+margin-bottom: 5px;
+}
+
+.header-lang img{
+	height: 30px;
+}
+
+
+
+.carousel {
+margin-top: 20px;
+
+}
+
+.carousel img {
+margin-left: auto;
+margin-right: auto;
+}
+
+
+.boxes {
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+.boxes img {
+	max-height: 230px;
+	margin-left: auto;
+	margin-right: auto;
+	  -webkit-transition: all 2s ease;
+     -moz-transition: all 2s ease;
+       -o-transition: all 2s ease;
+      -ms-transition: all 2s ease;
+          transition: all 2s ease;
+}
+
+.boxes img:hover {
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+.sidebar-right {
+
+}
+
+.sidebar-left {
+
+}
+
+#content {
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+}
+
+
+.footer {
+border-radius: 5px;
+}
+
+.footer a {
+color: #ffffff;
+}
+
+.nav.menu {
+	padding-right: 15px;
+}
+
+ul.nav.menu > li a {
+
+
+}
+
+ul.nav.menu > li a:hover {
+
+
+}
+
+ul.category-module {
+	list-style: none;
+	text-align: justify;
+}
+
+
+
+/* Navigation */
+
+
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-nav>li>a, .navbar-header{
+border-radius: 4px;
+margin-top: 15px;
+margin-bottom: 15px;
+min-width: 200px;
+float: right;
+
+
+}
+
+
+.navbar-nav>.active>a, .navbar-nav>.active>a:focus, .navbar-nav>.active>a:hover {
+
+
+}
+
+.navbar-nav>li>a {
+
+}
+
+
+.navbar-nav>li>a:hover, .navbar-nav>li>a:focus {
+
+	transition-duration: 0.4s;
+
+}
+
+
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover {
+
+	transition-duration: 0.4s;
+	
+}
+
+
+.dropdown-menu {
+	border-radius: 4px;
+	border-style: none;
+}
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:focus  {
+
+
+}
+
+.dropdown-menu>li>a {
+
+}
+
+.dropdown-menu>li>a:hover {
+	transition-duration: 0.4s;
+}
+
+.dropdown-menu>.active>a:hover {
+	transition-duration: 0.4s;
+}
+
+
+@media (min-width: 800px) {
+ul.nav li.dropdown:hover ul.dropdown-menu{
+    display: block;    
+}
+
+
+
+/* end Navigation */;
+

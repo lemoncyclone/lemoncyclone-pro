@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.6.5" type="template" method="upgrade" client="site">
+	<name>lemoncyclone pro</name>
+	<creationDate>2017-03-30</creationDate>
+	<author>xdya</author>
+	<authorEmail>icecoolcube@gmail.com</authorEmail>
+	<copyright>lemoncyclone 2017</copyright>
+	<license>GNU/GPL</license>
+	<version>1.0</version>
+	<description>A basic bootstrap template with easy customization. Components: responsive mod_gmsmenu, sidebars, language switcher, carousel, 3 boxes, footer.</description>
+	<files>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>index.html</filename>
+		<folder>images</folder>
+		<folder>css</folder>
+		<folder>fonts</folder>
+		<folder>js</folder>	
+		<folder>html</folder>	
+		<folder>php</folder>		
+	</files>
+	<positions>
+		<position>debug</position>
+		<position>breadcrumb</position>
+		<position>left</position>
+		<position>right</position>
+		<position>top</position>
+		<position>nav</position>
+		<position>box1</position>
+		<position>box2</position>
+		<position>box3</position>
+		<position>lang</position>
+		<position>content</position>
+		<position>carousel</position>
+		<position>pos0</position>
+		<position>pos1</position>
+		<position>pos2</position>
+		<position>pos3</position>
+		<position>pos4</position>
+		<position>footer</position>
+	</positions>
+	<config>
+	<fields name="params">
+	
+			<fieldset name="general" label="General Info">
+			
+				<field name="logoImg" class="" type="media" default=""
+					label="logoImage"
+					description="Select logo file" />
+					
+				<field name="logoSize" class="" type="text" default="70px"
+					label="logoSize"
+					description="Max logo height" />
+					
+				<field name="templateWidth" class="" type="text" default="1000px"
+					label="template Width"
+					description="Max page width" />
+					
+			</fieldset>
+			
+		<fieldset name="colors" label="Colors">
+		
+			  <field name="BackgroundColor" type="color" default="#EEEEEE" label="Background Color" description="Select Background color" />
+			  
+			  	<field name="templateColor" class="" type="color" default="#000000"
+					label="Font Color"
+					description="Select template font color" />
+				
+				<field name="linkColor" class="" type="color" default="#000000"
+					label="Link Color"
+					description="Select template link color" />	
+					
+				<field name="headlineColor" class="" type="color" default="#000000"
+					label="Headline Color"
+					description="Select headline color" />	
+					
+				<field name="headerBgColor" class="" type="color" default="#EEEEEE"
+					label="Header Background Color"
+					description="Select header background color" />	
+					
+				<field name="contentBgColor" class="" type="color" default="#E2E2E2"
+					label="Content Background Color"
+					description="Select content background color" />
+					
+				<field name="topbarColor" class="" type="color" default="#E2E2E2"
+					label="Top bar color"
+					description="Select top bar color" />
+				
+				<field name="footerBgColor" class="" type="color" default="#E2E2E2"
+					label="Footer background color"
+					description="Select footer background color" />
+				
+				<field name="footerFontColor" class="" type="color" default="#000000"
+					label="Footer font color"
+					description="Select footer font color" />	
+														
+				
+			</fieldset>
+			
+					<fieldset name="navigation" label="Navigation">
+				  
+			  	<field name="sideNavLinkColor" class="" type="color" default="#000000"
+					label="Side navigation Link Color"
+					description="Select side navigation link color" />
+				
+				<field name="sideNavHoverBgColor" class="" type="color" default="#ffffff"
+					label="Side navigation Hover Background Color"
+					description="Select side navigation hover background color" />	
+					
+					
+				<field name="NavBgColor" class="" type="color" default="#EEEEEE"
+					label="Menu background color"
+					description="Select navigation background color" />	
+					
+				<field name="NavFontColor" class="" type="color" default="#000000"
+					label="Menu font color"
+					description="Select navigation font color" />	
+					
+				<field name="NavHoverBgColor" class="" type="color" default="#E2E2E2"
+					label="Menu Hover Background Color"
+					description="Select navigation hover background color" />
+					
+				<field name="NavHoverFontColor" class="" type="color" default="#777777"
+					label="Menu hover font color"
+					description="Select menu hover font color" />
+				
+				<field name="NavLinkBgColor" class="" type="color" default="#E2E2E2"
+					label="Menu link background color"
+					description="Select menu link background color" />
+					
+				<field name="NavLinkFontColor" class="" type="color" default="#000000"
+					label="Menu link font color"
+					description="Select menu link font color" />
+					
+				<field name="NavLinkHoverBgColor" class="" type="color" default="#ffffff"
+					label="Menu link hover background color"
+					description="Select menu link hover background color" />
+				
+				<field name="NavLinkHoverFontColor" class="" type="color" default="#7777777"
+					label="Menu link hover font color"
+					description="Select menu link hover font color" />	
+				
+				<field name="NavDropdownBgColor" class="" type="color" default="#ffffff"
+					label="Dropdown background color"
+					description="Select dropdown background color" />	
+					
+				<field name="NavDropdownFontColor" class="" type="color" default="#000000"
+					label="Dropdown font color"
+					description="Select dropdown font color" />	
+					
+				<field name="NavDropdownListBgColor" class="" type="color" default="#EEEEEE"
+					label="Dropdown list background color"
+					description="Select dropdown list background color" />	
+					
+				<field name="NavDropdownListFontColor" class="" type="color" default="#000000"
+					label="Dropdown list font color"
+					description="Select dropdown list font color" />	
+					
+				<field name="NavDropdownActiveBgColor" class="" type="color" default="#ffffff"
+					label="Dropdown active background color"
+					description="Select dropdown active item background color" />	
+					
+				<field name="NavDropdownActiveFontColor" class="" type="color" default="#000000"
+					label="Dropdown active font color"
+					description="Select dropdown active item font color" />	
+					
+				<field name="NavDropdownLinkBgColor" class="" type="color" default="#ffffff"
+					label="Dropdown link background color"
+					description="Select dropdown link background color" />	
+					
+				<field name="NavDropdownLinkFontColor" class="" type="color" default="#000000"
+					label="Dropdown link font color"
+					description="Select dropdown link font color" />	
+					
+				<field name="NavDropdownLinkHoverBgColor" class="" type="color" default="#ffffff"
+					label="Dropdown link hover background color"
+					description="Select dropdown link hover background color" />	
+					
+				<field name="NavDropdownLinkHoverFontColor" class="" type="color" default="#777777"
+					label="Dropdown link hover font color"
+					description="Select dropdown link hover font color" />	
+					
+				<field name="NavDropdownActiveHoverBgColor" class="" type="color" default="#EEEEEE"
+					label="Dropdown active hover background color"
+					description="Select dropdown active item hover background color" />	
+					
+				<field name="NavDropdownActiveHoverFontColor" class="" type="color" default="#777777"
+					label="Dropdown active hover font color"
+					description="Select dropdown active item hover font color" />	
+									
+				
+			</fieldset>
+			
+			<fieldset name="carousel" label="Carousel Settings">
+			
+				<field name="carouselSize" class="" type="text" default="450px"
+					label="Carousel Size"
+					description="Max image height" />
+				<field name="slide1" class="" type="media" default=""
+					label="Slide 1"
+					description="Select slide image" />
+				<field name="slide2" class="" type="media" default=""
+					label="Slide 2"
+					description="Select slide image" />
+				<field name="slide3" class="" type="media" default=""
+					label="Slide 3"
+					description="Select slide image" />
+					
+					
+			</fieldset>			
+			
+			<fieldset name="boxes" label="Box Settings">
+			
+				<field name="boxImgSize" class="" type="text" default="230px"
+					label="Box Image Size"
+					description="Max image height" />
+									
+			</fieldset>	
+			
+	</fields>
+	</config>
+</extension>
